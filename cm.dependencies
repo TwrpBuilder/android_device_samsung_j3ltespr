@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common"
+  },
+  {
+    "repository": "android_kernel_samsung_j3ltespr",
+    "target_path": "kernel/samsung/j3ltespr"
+  },
+  {
+    "repository": "android_hardware_qcom_fm",
+    "target_path": "hardware/qcom/fm"
+  },
+  {
+    "repository": "android_external_mm-dash",
+    "target_path": "external/mm-dash"
+  }
+]
