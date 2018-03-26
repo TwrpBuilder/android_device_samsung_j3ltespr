@@ -31,5 +31,5 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false
-    repo: TwrpBuilder/android_device_samsung_j3ltespr
+    repo: TwrpBuilder/device_samsung_j3ltespr
     branch: mm6.0
