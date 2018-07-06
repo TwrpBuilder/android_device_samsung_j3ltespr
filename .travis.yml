@@ -9,7 +9,7 @@ before_script:
   -O $HOME/twrp.tar.xz
 - tar -xJf twrp.tar.xz --directory $HOME/twrp/ && rm twrp.tar.xz
 script:
-  - cd $HOME/twrp/ && git clone https://github.com/TwrpBuilder/device_samsung_j3ltespr.git device/samsung/j3ltespr
+  - cd $HOME/twrp/ && git clone https://github.com/TwrpBuilder/android_device_samsung_j3ltespr.git device/samsung/j3ltespr
   - git clone https://github.com/TwrpBuilder/device_generic_twrpbuilder.git device/generic/twrpbuilder
   - git clone https://github.com/androidlover5842/kernel_samsung_j3ltespr-stock.git --depth=1 kernel/samsung/j3ltespr
   - rm -rf bootable/recovery && git clone https://github.com/omnirom/android_bootable_recovery.git bootable/recovery
@@ -31,5 +31,5 @@ deploy:
   file: $HOME/twrp/*.img
   on:
     tags: false
-    repo: TwrpBuilder/device_samsung_j3ltespr
+    repo: TwrpBuilder/android_device_samsung_j3ltespr
     branch: mm6.0
